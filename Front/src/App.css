@@ -1,0 +1,259 @@
+
+.todos
+{
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: #0d1117;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 300px ;
+    width:50vw;
+    box-sizing: border-box;
+
+}
+
+.select
+{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.input-section
+{
+    width: 300px;
+    padding-bottom: 1vh;
+}
+.btn-dark-blue {
+    background-color: rgb(13, 110, 253)!important; /* Replace with the color you want */
+    border-color:none !important; /* Replace with the color you want */
+    color: white; /* This is the text color */
+    height:40px !important;
+  }
+
+.sidebar
+{
+    width:20vw;
+    height:100vh;
+    background-color:white;
+}
+
+.todo
+{
+    /**border-top:1px solid white;**/
+    font-size: 17px;
+    font-weight: 520;
+    width:auto;
+    position: relative;
+  }
+
+.calendar button
+{
+    color:black !important;
+    
+}
+.calendar
+{
+    position:absolute !important;
+    top:21.5vw !important;
+    left:38vw;
+}
+.calendar-hidden
+{
+    display: none !important;
+}
+
+.my-custom-input
+{
+    width:60px;
+    height:30px;
+    font-size: 15px !important;
+    color: black !important;
+    border:none !important;
+    outline: none !important;
+    font-weight: 700 !important;
+    background-color: transparent !important;
+    /*border-radius: 5px;
+    border-color: black !important;**/
+    justify-items: end;
+}
+
+.deleteButton
+{
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login
+{
+    width:400px !important;
+    height: 70vh !important;
+    margin-top: 5%;
+    box-shadow:10px 10px 10px rgb(13, 110, 253);
+
+}
+
+.forgot-password
+{
+    cursor: pointer;
+}
+
+.option
+{
+    cursor: pointer;
+}
+.logo-section
+{
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 5px;
+text-align: center;
+}
+
+.sidebar
+{
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+    background-color: #0d1117;
+    color:white;
+    width:20vw;
+}
+
+.search
+{
+    width:300px !important;
+}
+
+.img-profile
+{
+    width:50px;
+    height:50px;
+}
+.navbar
+{
+    width:80vw;
+    height:80px;
+    margin-top: 50px;
+}
+
+.sidebar
+{
+  padding-top: 70px !important;
+}
+  .logo-color
+  {
+    color:white;
+  }
+ 
+  .stats-header {
+    font-size: 20px;
+    color:white;
+    background-color: #0d1117;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+    margin-left: 100px;
+    width: 60vw;
+  }
+
+  .username
+  {
+    font-weight: 600;
+    color:rgb(13, 110, 253);
+  }
+
+  .pie-container
+  {
+    width: 30vw;
+    height:440px;
+    overflow: visible;
+  }
+  .bar-container
+  {
+    width:40vw ;
+    height:440px;
+  }
+   .calendar-container
+   {
+     width: 400px;
+     height: 400px;
+     overflow: visible;
+   }
+
+  .but{
+    width:200px;
+  }
+
+  .home
+  {
+    width:100vw;
+  }
+
+  .category
+  {
+    border-radius: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 500;
+    width: auto;
+  }
+
+
+  @media (max-width: 720px) {
+    .todos
+    {
+        width:60vw;
+    }
+    .sidebar
+    {
+      display: none;
+    }
+    .stats-header {
+      margin-left: 0px !important;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      hyphens: auto;
+      width: 80vw; /* Adjust this value as needed */
+    }
+    .bar-container
+    {
+      width: 100vw;
+    }
+    .pie-container
+    {
+      width: 100vw;
+    }
+    .stats
+    {
+      flex-direction: column;
+    }
+    
+  }
+
+.todotitle
+{
+  font-size: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:auto;
+}
+
+.date 
+{
+  font-size: 0.7em;
+  font-weight: 500;
+  color:#ffc83d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
